@@ -32,87 +32,23 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- cipher: aes-256-cfb
-  country: 🇰HK
-  name: 14|🇰HK_48
-  password: qwerREWQ@@
-  port: 41632
-  server: 112.213.102.188
-  type: ss
 - cipher: aes-256-gcm
   country: 🇵JP
-  name: 14|JP_57
+  name: 14|JP_61
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 141.164.45.187
   type: ss
 - country: 🇵JP
-  name: 14|🇵JP_58
+  name: 14|🇵JP_62
   password: IL37892054
   port: 443
   server: engaging-toucan.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 26|日本 016
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: rational-joey.rooster465.autos
-  skip-cert-verify: true
-  sni: rational-joey.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 26|日本 058
-  network: tcp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵_JP_日本_2
-  network: ws
-  port: 58905
-  server: 161.33.139.138
-  servername: 161.33.139.138
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
-  ws-opts:
-    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
-- cipher: aes-256-cfb
-  country: 🇷KR
-  name: 14|KR_59
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 26|韩国 020
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - country: 🇬SG
-  name: 14|SG_68
-  password: XG59623478
-  port: 443
-  server: polite-husky.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇬SG
-  name: 14|🇬SG_69
+  name: 14|SG_72
   password: d30ab83dbde4480082048fb315bedebd
   port: 443
   server: 5.180.78.22
@@ -120,7 +56,15 @@ proxies:
   type: trojan
   udp: true
 - country: 🇬SG
-  name: 14|🇬SG_70
+  name: 14|🇬SG_73
+  password: XG59623478
+  port: 443
+  server: polite-husky.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬SG
+  name: 14|🇬SG_74
   password: XG59623478
   port: 443
   server: immune-mullet.rooster465.autos
@@ -128,7 +72,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇬SG
-  name: 14|🇸🇬SG_71
+  name: 14|🇸🇬SG_75
   password: XG59623478
   port: 443
   server: elegant-marten.rooster465.autos
@@ -137,13 +81,21 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   country: 🇺RU
-  name: 14|🇺RU_65
+  name: 14|🇺RU_69
   password: 0GAK2b9gkqBatuxi2cswmH
   port: 25232
   server: 83.217.9.17
   type: ss
 - country: 🇺RU
-  name: 14|🇺RU_66
+  name: 14|🇺RU_70
+  password: WF42809561
+  port: 443
+  server: nearby-muskrat.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺RU
+  name: 14|🇺RU_71
   password: '!!str 1234567890'
   port: 443
   server: 194.87.77.91
@@ -151,61 +103,114 @@ proxies:
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
-- country: 🇺RU
-  name: 14|🇷🇺RU_67
-  password: WF42809561
-  port: 443
-  server: nearby-muskrat.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 26|俄罗斯 076
-  network: tcp
-  port: 22324
-  server: 5.188.190.252
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
   country: 🇧 GB
-  name: 14|🇬🇧 GB_20
+  name: 14| GB_15
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧 GB
+  name: 14|🇬🇧 GB_17
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.202
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇧GB
-  name: 14|🇬🇧GB_26
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
+  server: 82.38.31.191
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: 14|🇬🇧GB_28
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  country: 🇧 GB
+  name: 14|🇬🇧 GB_18
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.149
+  server: 82.38.31.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧 GB
+  name: 14|🇬🇧 GB_21
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
-  name: 14|🇬🇧GB_30
+  name: 14|🇬🇧GB_23
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_24
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 82.38.31.15
+  server: 82.38.31.57
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
-  name: 14|🇬🇧GB_31
+  name: 14|🇬🇧GB_25
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
+  name: 14|🇬🇧GB_26
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_28
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_29
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.216
+  type: ss
+- cipher: rc4-md5
+  country: 🇬🇧GB
+  name: 14,39|146.70.61.37_Claude
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇧GB_31
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.219
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇧GB
   name: 14|🇬🇧GB_32
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_33
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_34
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇧GB_35
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
@@ -217,51 +222,22 @@ proxies:
   port: 443
   server: 141.98.101.179
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇬🇧GB
+  name: 14|🇬🇧GB_39
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
 - cipher: aes-128-gcm
   country: 🇬🇧GB
-  name: 14|🇬🇧GB_34
+  name: 14|🇬🇧GB_43
   password: shadowsocks
   port: 443
   server: 141.98.101.178
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: 14|🇬🇧GB_35
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: 14|🇬🇧GB_36
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: '14,26,33|B - 🇺🇸 US 18 TG: @nodpai'
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
 - country: 🇧GB
-  name: 14|🇧GB_43
-  password: IL37892054
-  port: 443
-  server: upright-rhino.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇬🇧GB
-  name: 14|🇧GB_44
+  name: 14|🇬🇧GB_49
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 85.237.207.189
@@ -269,15 +245,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇬🇧GB
-  name: 14|🇧GB_45
-  password: t1k169n5zmvvwn96r9ft
-  port: 57452
-  server: 146.70.90.197
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇬🇧GB
-  name: 14|🇬🇧GB_46
+  name: 14|🇧GB_50
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 77.247.126.137
@@ -285,16 +253,32 @@ proxies:
   type: trojan
   udp: true
 - country: 🇬🇧GB
-  name: 14|🇬🇧GB_47
+  name: 14|🇬🇧GB_51
   password: 3ac6a6ca99f74941b1eaf892818e2ddb
   port: 443
   server: 194.33.45.157
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇧GB
+  name: 14|🇬🇧GB_52
+  password: IL37892054
+  port: 443
+  server: upright-rhino.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇬🇧GB
+  name: 14|🇬🇧GB_55
+  password: t1k169n5zmvvwn96r9ft
+  port: 57452
+  server: 146.70.90.197
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇼TW
-  name: 14|TW_72
+  country: 🇹🇼TW
+  name: 14|🇹🇼TW_78
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
@@ -311,39 +295,40 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies: &id001
-  - 14|🇵JP_58
-  - 26|日本 058
-  - 14|🇬SG_69
-  - 14|SG_68
-  - 14|🇺RU_66
-  - 14|🇬🇧 GB_20
-  - 14|🇬🇧GB_36
-  - 14|🇬🇧GB_34
-  - 14|🇬🇧GB_30
-  - 26|日本 016
-  - 14|🇺RU_65
-  - 14|🇬🇧GB_35
-  - 27|🇯🇵_JP_日本_2
-  - 14|🇰HK_48
-  - 14,39|GB_Stretford_M247 Europe SRL_C...
-  - 14|🇧GB_44
+  - 14|🇬🇧GB_52
+  - 14|🇬🇧 GB_17
+  - 14|🇵JP_62
+  - 14|🇸🇬SG_75
+  - 14|SG_72
   - 14|🇬🇧GB_32
-  - 14|🇬🇧GB_46
-  - 14|TW_72
-  - 14|🇬🇧GB_31
-  - 14|🇧GB_45
-  - 14|🇸🇬SG_71
-  - 14|🇬🇧GB_47
-  - 14|JP_57
-  - 14|🇧GB_43
-  - 14|🇬🇧GB_26
+  - 14|🇬SG_73
   - 14|🇬🇧GB_28
-  - 14|KR_59
-  - 26|韩国 020
-  - 26|俄罗斯 076
-  - '14,26,33|B - 🇺🇸 US 18 TG: @nodpai'
-  - 14|🇬SG_70
-  - 14|🇷🇺RU_67
+  - 14|🇧GB_35
+  - 14| GB_15
+  - 14|🇬🇧 GB_21
+  - 14|🇬SG_74
+  - 14|🇧GB_31
+  - 14|🇬🇧GB_26
+  - 14|🇬🇧GB_55
+  - 14|🇬🇧 GB_18
+  - 14|🇬🇧GB_39
+  - 14|🇬🇧GB_33
+  - 14|🇬🇧GB_49
+  - 14|🇬🇧GB_25
+  - 14|🇹🇼TW_78
+  - 14|🇺RU_70
+  - 14|🇧GB_50
+  - 14|🇬🇧GB_29
+  - 14|🇬🇧GB_34
+  - 14|🇬🇧GB_43
+  - 14,39|GB_Stretford_M247 Europe SRL_C...
+  - 14|🇬🇧GB_23
+  - 14|JP_61
+  - 14|🇺RU_69
+  - 14|🇺RU_71
+  - 14,39|146.70.61.37_Claude
+  - 14|🇬🇧GB_24
+  - 14|🇬🇧GB_51
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
